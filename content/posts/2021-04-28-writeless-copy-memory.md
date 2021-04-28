@@ -7,6 +7,8 @@ slug = "writeless-copy-memory"
 summary = " "
 +++
 
+### 概要
+
 マルウェアのインジェクションについて調べていたら、面白い記事を発見しました。
 
 > [Inject Me x64 Injection-less Code Injection](https://www.deepinstinct.com/2019/07/24/inject-me-x64-injection-less-code-injection/)
@@ -40,7 +42,7 @@ summary = " "
 
 `NtQueueApcThreadEx`を呼び出す回数 = APCキューの数 = コピーしたいメモリの長さ になります。
 
-これらを踏まえて簡単に実装すると次のような感じになります。
+### PoCコード
 
 ```rust
 unsafe fn queueing<F: Fn(HANDLE) -> Result<()>>(hp: HANDLE, sleep: PVOID, closure: F) -> Result<()> {
@@ -117,9 +119,9 @@ unsafe fn get_op_by_module(module: PVOID, op: u8) -> Result<*mut c_void> {
 }
 ```
 
-これらを次のような感じで利用出来ます。
+#### 使用例
 
-コピペで利用出来ないように一部疑似コードになっています。
+一部疑似コードのため、そのままでは動きません。
 
 ```rust
 // 使用例
@@ -145,3 +147,5 @@ unsafe fn main() -> Result<()> {
 ```
 
 これで、従来のようなメモリコピー手順をしなくてもリモートプロセスにメモリをコピー出来ます。
+
+参考: [Inject Me x64 Injection-less Code Injection](https://www.deepinstinct.com/2019/07/24/inject-me-x64-injection-less-code-injection/)

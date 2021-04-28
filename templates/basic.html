@@ -75,7 +75,9 @@
       {%- if config.extra.show.tags -%}
       <li><a {% if current_path is starting_with("/tags") %}class="current"{% endif %} href="{{ get_url(path="@/_index.md") }}tags">{{ trans(key="tags") }}</a></li>
       {%- endif -%}
+      {%- if config.extra.show.archive -%}
       <li><a {% if current_path is starting_with("/archive") %}class="current"{% endif %} href="{{ get_url(path="@/archive/_index.md") }}">{{ trans(key="archive") }}</a></li>
+      {%- endif -%}
       {%- if config.extra.show.links -%}
       <li><a {% if current_path is starting_with("/links") %}class="current"{% endif %} href="{{ get_url(path="@/links/_index.md") }}">{{ trans(key="links") }}</a></li>
       {%- endif -%}

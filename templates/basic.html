@@ -70,6 +70,7 @@
   <div class="page-top animated fadeInDown">
     <div class="nav">
       <li><a {% if current_path is starting_with("/") %}class="current"{% endif %} href="{{ get_url(path="@/_index.md") }}">{{ trans(key="home") }}</a></li>
+      <li><a {% if current_path is starting_with("/works") %}class="current"{% endif %} href="{{ get_url(path="@/works/_index.md") }}">{{ trans(key="works") }}</a></li>
       <li><a {% if current_path is starting_with("/posts") %}class="current"{% endif %} href="{{ get_url(path="@/posts/_index.md") }}">{{ trans(key="posts") }}</a></li>
       {%- if config.extra.show.tags -%}
       <li><a {% if current_path is starting_with("/tags") %}class="current"{% endif %} href="{{ get_url(path="@/_index.md") }}tags">{{ trans(key="tags") }}</a></li>

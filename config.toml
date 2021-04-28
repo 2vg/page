@@ -14,8 +14,8 @@ taxonomies = [
 ]
 
 [translations.en]
-about = "About"
 home = "Home"
+works = "Works"
 posts = "Posts"
 tags = "Tags"
 archive = "Archive"

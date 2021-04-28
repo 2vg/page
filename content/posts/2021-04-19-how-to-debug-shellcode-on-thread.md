@@ -3,6 +3,8 @@ title = "特定のスレッドで動くシェルコードをデバッグした�
 template = "page.html"
 date = 2021-04-19T21:00:00Z
 slug = "how-to-debug-shellcode-on-thread"
+[taxonomies]
+tags = ["shellcode", "debug"]
 [extra]
 summary = " "
 image0 = "./images/2021-03-28-get-syscall-number-dynamically-0.png"

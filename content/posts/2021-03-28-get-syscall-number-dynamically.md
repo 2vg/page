@@ -3,6 +3,8 @@ title = "動的にNt系関数のシステムコール番号を取得する"
 template = "page.html"
 date = 2021-03-28T21:30:00Z
 slug = "get-syscall-number-dynamically"
+[taxonomies]
+tags = ["rust", "syscall"]
 [extra]
 summary = " "
 +++

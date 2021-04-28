@@ -3,6 +3,8 @@ title = "Write系コールを使わずにリモートプロセスにメモリを
 template = "page.html"
 date = 2021-04-28T13:00:00Z
 slug = "writeless-copy-memory"
+[taxonomies]
+tags = ["rust", "malware", "injection"]
 [extra]
 summary = " "
 +++

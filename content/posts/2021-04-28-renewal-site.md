@@ -3,6 +3,8 @@ title = "新しくサイトを作り直した"
 template = "page.html"
 date = 2021-04-28T12:20:00Z
 slug = "renewal-site"
+[taxonomies]
+tags = ["rust"]
 [extra]
 summary = "Zolaを使ってサイトを作り直した"
 +++

@@ -1,0 +1,40 @@
+title = "たたかうおおかみ！"
+description = "noob Rustacean"
+base_url = "https://example.com"
+compile_sass = true
+highlight_code = true
+build_search_index = false
+generate_rss = true
+highlight_theme = "dracula"
+
+default_language = "en"
+
+taxonomies = [
+    {name = "tags"},
+]
+
+[translations.en]
+about = "About"
+home = "Home"
+posts = "Posts"
+tags = "Tags"
+archive = "Archive"
+links = "Links"
+next_page = "Next Page"
+last_page = "Last Page"
+
+[extra.social]
+github = "2vg"
+twitter = "2vg"
+facebook = ""
+instagram = ""
+dribbble = ""
+weibo = ""
+steam = "mikopero"
+
+[extra.show]
+tags = true
+links = true
+
+[extra.comment.disqus]
+name = "ururu"

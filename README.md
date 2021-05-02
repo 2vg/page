@@ -1,6 +1,7 @@
 # My page
 
-https://ururu.netlify.app/
+https://nyaa.gg/ (自分のドメイン)
+https://ururu.netlify.app/ (netlifyでのテストデプロイ)
 
 ### Require
 - zola

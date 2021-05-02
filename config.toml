@@ -34,7 +34,7 @@ steam = "mikopero"
 
 [extra.show]
 tags = true
-archive = false
+archive = true
 links = true
 
 [extra.comment.disqus]

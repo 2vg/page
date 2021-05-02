@@ -67,26 +67,39 @@
   </div>
 </div>
 <div id="main">
+  <div id="main-mask"></div>
   <div class="page-top animated fadeInDown">
-    <div class="nav">
-      <li><a {% if current_path is starting_with("/") %}class="current"{% endif %} href="{{ get_url(path="@/_index.md") }}">{{ trans(key="home") }}</a></li>
-      <li><a {% if current_path is starting_with("/works") %}class="current"{% endif %} href="{{ get_url(path="@/works/_index.md") }}">{{ trans(key="works") }}</a></li>
-      <li><a {% if current_path is starting_with("/posts") %}class="current"{% endif %} href="{{ get_url(path="@/posts/_index.md") }}">{{ trans(key="posts") }}</a></li>
-      {%- if config.extra.show.tags -%}
-      <li><a {% if current_path is starting_with("/tags") %}class="current"{% endif %} href="{{ get_url(path="@/_index.md") }}tags">{{ trans(key="tags") }}</a></li>
-      {%- endif -%}
-      {%- if config.extra.show.archive -%}
-      <li><a {% if current_path is starting_with("/archive") %}class="current"{% endif %} href="{{ get_url(path="@/archive/_index.md") }}">{{ trans(key="archive") }}</a></li>
-      {%- endif -%}
-      {%- if config.extra.show.links -%}
-      <li><a {% if current_path is starting_with("/links") %}class="current"{% endif %} href="{{ get_url(path="@/links/_index.md") }}">{{ trans(key="links") }}</a></li>
-      {%- endif -%}
-    </div>
     <div class="information">
       <div class="back_btn">
         <li><a onclick="window.history.go(-1)" {% if current_path == "/" %}style="display:none;"{% endif %}><i class="fas fa-chevron-left"></i></a></li>
       </div>
       <div class="avatar"><img src="{{ get_url(path="images/avatar.png") }}"></div>
+    </div>
+    <div id="navArea">
+      <div id="nav">
+        <div class="inner">
+          <ul>
+            <li><a {% if current_path is starting_with("/") %}class="current"{% endif %} href="{{ get_url(path="@/_index.md") }}">{{ trans(key="home") }}</a></li>
+            <li><a {% if current_path is starting_with("/works") %}class="current"{% endif %} href="{{ get_url(path="@/works/_index.md") }}">{{ trans(key="works") }}</a></li>
+            <li><a {% if current_path is starting_with("/posts") %}class="current"{% endif %} href="{{ get_url(path="@/posts/_index.md") }}">{{ trans(key="posts") }}</a></li>
+            {%- if config.extra.show.tags -%}
+            <li><a {% if current_path is starting_with("/tags") %}class="current"{% endif %} href="{{ get_url(path="@/_index.md") }}tags">{{ trans(key="tags") }}</a></li>
+            {%- endif -%}
+            {%- if config.extra.show.archive -%}
+            <li><a {% if current_path is starting_with("/archive") %}class="current"{% endif %} href="{{ get_url(path="@/archive/_index.md") }}">{{ trans(key="archive") }}</a></li>
+            {%- endif -%}
+            {%- if config.extra.show.links -%}
+            <li><a {% if current_path is starting_with("/links") %}class="current"{% endif %} href="{{ get_url(path="@/links/_index.md") }}">{{ trans(key="links") }}</a></li>
+            {%- endif -%}
+          </ul>
+        </div>
+      </div>
+      <div class="toggle_btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div id="sub-mask"></div>
     </div>
   </div>
   <div class="autopagerize_page_element">
@@ -96,5 +109,6 @@
     </div>
   </div>
 </div>
+<script type="text/javascript" src="{{ get_url(path="js/menu.js") }}"></script>
 </body>
 </html>

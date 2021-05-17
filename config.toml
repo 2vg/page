@@ -1,6 +1,6 @@
 title = "たたかうおおかみ！"
 description = "noob Rustacean"
-base_url = "https://nyaa.gg/"
+base_url = "https://ururu.netlify.app/"
 compile_sass = true
 highlight_code = true
 build_search_index = false

@@ -10,6 +10,16 @@ paginate_by = 0
 
 ---
 
+#### [tfa-rs](https://github.com/2vg/tfa-rs)
+Rustで作ったコマンドラインで管理するTwo-Factor Authentication用ツール。HOTPとTOTP両方対応。</br>
+いちいちスマホを開いてコードを目grepしてタイピングするのが面倒だったので、CLIで管理できるように作った。</br>
+極力無駄なコマンドを実装せず、最低限のコマンドと最低限のオプションだけを実装したが、実用性は十分！
+
+#### [Sympho](https://github.com/2vg/sympho)
+Rustで作ったDiscordの音楽Bot。</br>
+SongbirdとSerenityを活用して、独自のキューシステムを構築し、標準的な音楽再生Botを作った。</br>
+まだまだ実装したいコマンドがあるため、絶賛改良中。
+
 #### [blackcat-rs](https://github.com/2vg/blackcat-rs)
 Rustで悪意のある技術を実装していくリポジトリ。</br>
 CやC++の遺産を使わず、純粋なRustのみで実装していくのがきもちい。

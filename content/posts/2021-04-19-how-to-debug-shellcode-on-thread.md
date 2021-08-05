@@ -24,11 +24,11 @@ image0 = "./images/2021-03-28-get-syscall-number-dynamically-0.png"
 
 `Search:`で`notepad`と入力してフィルターします。
 
-![2021-03-28-get-syscall-number-dynamically-0.png](../2021-03-28-get-syscall-number-dynamically-0.png)
+![2021-04-19-how-to-debug-shellcode-on-thread-0.png](../../images/posts/2021/04/19/how-to-debug-shellcode-on-thread-0.png)
 
 `notepad`にアタッチ出来たら、スレッドタブを開いて、作成したスレッドのスレッドIDを探し、右クリックから`Go To Thread Entry`をクリックします。
 
-![2021-03-28-get-syscall-number-dynamically-1.png](../2021-03-28-get-syscall-number-dynamically-1.png)
+![2021-04-19-how-to-debug-shellcode-on-thread-1.png](../../images/posts//2021/04/19/how-to-debug-shellcode-on-thread-1.png)
 
 これでCPUタブに戻るので、デバッグする準備が出来ました。
 

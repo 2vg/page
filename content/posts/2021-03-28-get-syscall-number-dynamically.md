@@ -27,7 +27,7 @@ AVやEDRによる`ntdll.dll`へのフックを回避する手法の一つに直�
 
 処理のみを載せているので、そのままでは動きません。
 
-```rust
+```rs
 let mut function_table = HashMap::new();
 
 // x64ではgsセグメントレジスタの0x60にPEBが含まれている

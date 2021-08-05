@@ -9,9 +9,9 @@ paginate_by = 0
 
 ネットで使用している名義はいくつかありますが、どれでも好きに呼んでください
 
-- なまえ: 2vg, mofu, uru, 烏魯, 芝麻貓
+- なまえ: 2vg, mofu, uru, 烏魯, 芝麻貓(`ごまねこ`と読みます)
 - しゅみ: プログラミング, げーむ, 音楽鑑賞, ねっとさーふぃん
-- すきなもの: かわいい物、みこちゃん
+- すきなもの: かわいい物、みこちゃん、ぱつきん美少女(浅羽限定)
 - きらいなもの: かわいくない物
 
 ## Description
@@ -22,6 +22,8 @@ Rustでマルウェア作ってみたりしてます、Windowsはくそ、うん
 他にも非同期とか、ネットワークI/Oとかにに興味があります</br>
 以前はずっとNimをやってましたが、最近は引退、今後なんかあったらやるかも、しらんけど
 
+ゲームはFF14、PSO2NGS、音ゲー、FPSなどなど</br>
+FF14は白魔メインです、仲間を地獄に見送るのが得意です対戦よろしくお願いします</br>
 FPSはCSGO、Apex等をやってます。Apexはあんまやってない、、</br>
 CSGOでは最近はMG鯖ばっか、時々bhopとsurf、あとZE</br>
 音ゲーをちょっとだけ。osu!maniaとかCTBちょこちょこやってる</br>
@@ -52,18 +54,21 @@ Melodicな物とかがすき！
 
 ### デバイス
 - Display: Acer KG241QAbiip 23.6inch, 144Hz
-- Mouse: Logicool G Pro Wireless SUPERLIGHT
+- Mouse: Logicool G Pro X SUPERLIGHT
 - Mouse PAD: SteelSeries QcKの普通サイズのやつ
-- Keyboard: BFKB113PBK or Corsair K65 Compact JP
+- Keyboard: BFKB113PBK or Corsair K65 Compact JP(こいつは音ゲーの時、赤軸)
 - Headset: Razer Blackshark V2 Pro
 - earphone: SHURE SE215 Special Edition
-- audio-interface: Behringer UCA202 U-CONTROL (Desktopが初期不良でイヤホン刺すと左側から聞こえないので、そのためだけに泣く泣く購入したもの、今はほぼ使ってない)
+- audio-interface: Behringer UCA202 U-CONTROL (今使ってない~~Desktopが初期不良でイヤホン刺すと左側から聞こえないので、そのためだけに泣く泣く購入したもの、今はほぼ使ってない~~)
 
 ## QA
 よく聞かれる事をここに答えとして書いておきます
 
 ### 男ですか？女ですか？
-> 男です。めめしさ有り。
+> 自称美少女です。
+
+### アイコンの金髪美少女だれ？
+> [朱鹭咲浅羽_百度百科](https://baike.baidu.com/item/%E6%9C%B1%E9%B9%AD%E5%92%B2%E6%B5%85%E7%BE%BD/20104615)
 
 ### Nimはもうやらないんですか？
 > たぶんやりません。理由はいくつかありますけど、一番はコミュニティが全然成長しない、って事です。
@@ -71,3 +76,6 @@ Melodicな物とかがすき！
 
 ### なんでマルウェアつくってるの？
 > なんで？たのしいよ？まるうぇあ作るの。
+
+### どうやったらosu!mania出来るようになりますか？
+> つべこべ言わずにやれ。この質問の答えを探すまでの時間が無駄。やれ。

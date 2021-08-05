@@ -1,11 +1,12 @@
-title = "たたかうおおかみ！"
+title = "TEST SITE"
 description = "noob Rustacean"
 base_url = "https://ururu.netlify.app/"
+
 compile_sass = true
-highlight_code = true
 build_search_index = false
+
 generate_rss = true
-highlight_theme = "dracula"
+feed_filename = "rss.xml"
 
 default_language = "en"
 
@@ -13,7 +14,11 @@ taxonomies = [
     {name = "tags"},
 ]
 
-[translations.en]
+[markdown]
+highlight_code = true
+highlight_theme = "dracula"
+
+[languages.en.translations]
 home = "Home"
 works = "Works"
 posts = "Posts"
@@ -39,3 +44,7 @@ links = true
 
 [extra.comment.disqus]
 name = "ururu"
+
+[extra.myvar]
+title = "たたかうおおかみ！"
+description = "noob Rustacean"

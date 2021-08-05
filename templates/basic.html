@@ -11,7 +11,7 @@
   <link rel="short icon" href="{{ get_url(path="images/favicon.png") }}" type="image/x-icon"/>
   <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
   <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
-  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <title>{% block title %}{{ config.extra.myvar.title }}{% endblock title %}</title>
   {% if config.generate_feed %}
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
   {% endif %}
@@ -23,10 +23,10 @@
   <div class="logo-title">
     <div class="title">
       <img src={{ get_url(path="images/logo@2x.png" ) }} style="width:127px;" alt="logo"/>
-      <h3><a href="{{ get_url(path="@/_index.md") }}">{{ config.title }}</a></h3>
+      <h3><a href="{{ get_url(path="@/_index.md") }}">{{ config.extra.myvar.title }}</a></h3>
       <div class="description">
         <p>
-          {{ config.description }}
+          {{ config.extra.myvar.description }}
           </br>
           newbie malware techs researcher♡
         </p>

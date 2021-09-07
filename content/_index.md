@@ -16,20 +16,22 @@ paginate_by = 0
 
 ## Description
 [櫻歌ミコちゃん](https://twitter.com/miko_ouka)推しの人間です。</br>
+あと[北上双葉ちゃん](https://twitter.com/kitakamifutaba)も推していました、引退した時は涙が止まらん気持ちだった。</br>
 
 プログラムを少しｶﾞﾘｶﾞﾘかじってます。</br>
-Rustでマルウェア作ってみたりしてます、Windowsはくそ、うんち</br>
-他にも非同期とか、ネットワークI/Oとかにに興味があります</br>
+趣味でマルウェア技術について研究というか調査したりしていて、Rustで実装してみたりしてなかったりしてます。</br>
+他にも非同期とか、ネットワークI/Oとかに興味があります</br>
 以前はずっとNimをやってましたが、最近は引退、今後なんかあったらやるかも、しらんけど
 
-ゲームはFF14、PSO2NGS、音ゲー、FPSなどなど</br>
-FF14は白魔メインです、仲間を地獄に見送るのが得意です対戦よろしくお願いします</br>
-FPSはCSGO、Apex等をやってます。Apexはあんまやってない、、</br>
-CSGOでは最近はMG鯖ばっか、時々bhopとsurf、あとZE</br>
+ゲームはFF14、音ゲー、FPSなどなど</br>
+FF14は白魔メイン、黒魔サブです、仲間を地獄に見送るのが得意です対戦よろしくお願いします</br>
+FPSはCSGOをやってます。他のFPSはあんまやってない、、</br>
+CSGOでは最近はMG鯖ばっか、時々bhopとsurfとkz、あとZE</br>
 音ゲーをちょっとだけ。osu!maniaとかCTBちょこちょこやってる</br>
 
 音楽はEDM系をよく聴きます。</br>
-Melodicな物とかがすき！
+Melodicな物とかが好きですが、Hard StyleやFrench Coreもよく聴きます。あとVirtual Riot系のやつとか！</br>
+(Complextro？って言うのかな)
 
 ## PC, Device
 使用しているPCのスペックやデバイスなど！
@@ -39,7 +41,7 @@ Melodicな物とかがすき！
 - GPU: NVIDIA RTX 2070 SUPER 8GB (Asetek 740GN水冷 + Enermax UCTB12)
 - Cooler: Asetek 650LS RGB With Pump + Enermax UCTB12P
 - RAM: 32GB (DDR4 3200 16GBを2まい, でゅあるチャンネルです)
-- SSD1: Intel SSD 660p Series M.2 PCI-E 512GB
+- SSD1: AORUS Gen4 7000s SSD 2TB (GP-AG70S2TB)
 - SSD2: Crucial CT960BX500SSD1 960GB
 - MOTHER: X570 AORUS ELITE (AMD X570chipset)
 - Power: SilverStone SST-ST75F-GS V3 (750W / 80PLUS Gold)
@@ -58,14 +60,14 @@ Melodicな物とかがすき！
 - Mouse PAD: SteelSeries QcKの普通サイズのやつ
 - Keyboard: BFKB113PBK or Corsair K65 Compact JP(こいつは音ゲーの時、赤軸)
 - Headset: Razer Blackshark V2 Pro
-- earphone: SHURE SE215 Special Edition
-- audio-interface: Behringer UCA202 U-CONTROL (今使ってない~~Desktopが初期不良でイヤホン刺すと左側から聞こえないので、そのためだけに泣く泣く購入したもの、今はほぼ使ってない~~)
+- earphone: SHURE SE215 Special Edition (現在不使用、埃被ってる)
+- audio-interface: Behringer UCA202 U-CONTROL (現在不使用)
 
 ## QA
 よく聞かれる事をここに答えとして書いておきます
 
 ### 男ですか？女ですか？
-> 自称美少女です。
+> 美少女です。
 
 ### アイコンの金髪美少女だれ？
 > [朱鹭咲浅羽_百度百科](https://baike.baidu.com/item/%E6%9C%B1%E9%B9%AD%E5%92%B2%E6%B5%85%E7%BE%BD/20104615)
@@ -77,5 +79,5 @@ Melodicな物とかがすき！
 ### なんでマルウェアつくってるの？
 > なんで？たのしいよ？まるうぇあ作るの。
 
-### どうやったらosu!mania出来るようになりますか？
-> つべこべ言わずにやれ。この質問の答えを探すまでの時間が無駄。やれ。
+### Rust教えて！
+> 私も知りたい！

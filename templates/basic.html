@@ -10,7 +10,7 @@
   <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ get_url(path="images/apple-touch-icon-57x57.png", trailing_slash=false) }}"/>
   <link rel="short icon" href="{{ get_url(path="images/favicon.png") }}" type="image/x-icon"/>
   <link rel="stylesheet" href="{{ get_url(path="style.css") }}">
-  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ get_url(path="css/fa-all.min.css", trailing_slash=false) }}">
   <title>{% block title %}{{ config.extra.myvar.title }}{% endblock title %}</title>
   {% if config.generate_feed %}
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">

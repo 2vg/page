@@ -11,26 +11,22 @@ paginate_by = 0
 
 - なまえ: 2vg, mofu, uru, 烏魯, 芝麻貓(`ごまねこ`と読みます)
 - しゅみ: プログラミング, げーむ, 音楽鑑賞, ねっとさーふぃん
-- すきなもの: かわいい物、みこちゃん、ぱつきん美少女(浅羽限定)
+- すきなもの: かわいい物
 - きらいなもの: かわいくない物
 
 ## Description
-[櫻歌ミコちゃん](https://twitter.com/miko_ouka)推しの人間です。</br>
-あと[北上双葉ちゃん](https://twitter.com/kitakamifutaba)も推していました、引退した時は涙が止まらん気持ちだった。</br>
-
 プログラムを少しｶﾞﾘｶﾞﾘかじってます。</br>
 趣味でマルウェア技術について研究というか調査したりしていて、Rustで実装してみたりしてなかったりしてます。</br>
 他にも非同期とか、ネットワークI/Oとかに興味があります</br>
 以前はずっとNimをやってましたが、最近は引退、今後なんかあったらやるかも、しらんけど
 
-ゲームはFF14、音ゲー、FPSなどなど</br>
-FF14は白魔メイン、黒魔サブです、仲間を地獄に見送るのが得意です対戦よろしくお願いします</br>
-FPSはCSGOをやってます。他のFPSはあんまやってない、、</br>
-CSGOでは最近はMG鯖ばっか、時々bhopとsurfとkz、あとZE</br>
-音ゲーをちょっとだけ。osu!maniaとかCTBちょこちょこやってる</br>
+ゲームは最近はほとんどFF14で、たまに音ゲー、FPSなどなど</br>
+FF14は白魔メイン、サブリーパーです、仲間を地獄に見送るのが得意です対戦よろしくお願いします</br>
+FPSはたまにVALORANTをカスタムでやるくらい、一人だとほぼスパイクラッシュだけ</br>
+後は音ゲーを少し。osu!maniaとかCTBちょこちょこやってる</br>
 
-音楽はEDM系をよく聴きます。</br>
-Melodicな物とかが好きですが、Hard StyleやFrench Coreもよく聴きます。あとVirtual Riot系のやつとか！</br>
+音楽はEDM系をよく聴きます。kawaii future系が大好き！</br>
+後はMelodicな物とかが好きですが、Hard StyleやFrench Coreもよく聴きます。あとVirtual Riot系のやつとか！</br>
 (Complextro？って言うのかな)
 
 ## PC, Device
@@ -51,13 +47,13 @@ Melodicな物とかが好きですが、Hard StyleやFrench Coreもよく聴き�
 - GPU: NVIDIA RTX 2070 With Max-Q
 - Cooler: PCに負荷がかかるとめちゃくちゃうるさいファン
 - RAM: 32GB (メーカーとか不明...たぶんDDR4 SO-DIMMの16GBを2まい)
-- SSD: 256GB (メーカー不明...NVMe SSDなのは確か、どっかに書いてあった)
+- SSD: Intel SSD 660p Series M.2 PCI-E 512GB
 - HDD: 1TB (こちらも不明、遅いゴミなのは確か、よくフリーズするし、うんちです)
 
 ### デバイス
 - Display: Acer KG241QAbiip 23.6inch, 144Hz
 - Mouse: Logicool G Pro X SUPERLIGHT
-- Mouse PAD: SteelSeries QcKの普通サイズのやつ
+- Mouse PAD: Artisan NINJA FX
 - Keyboard: BFKB113PBK or Corsair K65 Compact JP(こいつは音ゲーの時、赤軸)
 - Headset: Razer Blackshark V2 Pro
 - earphone: SHURE SE215 Special Edition (現在不使用、埃被ってる)
